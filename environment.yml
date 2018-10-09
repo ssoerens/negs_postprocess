@@ -1,0 +1,13 @@
+name: negs_postprocessing
+channels:
+    - conda-forge
+dependencies:
+  - python=2.7
+  - obspy=1.0.3
+  - pip
+  - pandas
+  - pip:
+    - "git+git://github.com/wjlei1990/pyflex.git@devel"
+    - "git+git://github.com/wjlei1990/spaceweight.git@master"
+    - "git+git://github.com/chukren/pyadjoint.git@dev"
+    - "git+git://github.com/computational-seismology/pytomo3d.git@master"
